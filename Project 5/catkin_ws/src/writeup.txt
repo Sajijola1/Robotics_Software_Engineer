@@ -1,0 +1,13 @@
+Packages used:
+
+gmapping: Using the gmapping_demo.launch file, the robot could perform SLAM and create a map of its environment. The robot needs to be fitted with a laser range finder sensor or RGB-D camera to use this package.
+
+turtlebot_teleop: The turtlebot_teleop package enabled control of the robot using user input. Launching the keyboard_teleop.launch file allowed the robot to be manually driven using keyboard commands.
+
+turtlebot_rviz_launchers: The turtlebot_rviz_launchers package was used to load a preconfigured rviz workspace using the view_navigation.launch file. Using this package enables time savings by automatically loading the robot model, trajectories, and map for you.
+
+turtlebot_gazebo: This package was used to deploy a turtlebot linked to the world file in a gazebo environment by running  the turtlebot_world.launch file.
+
+pick_objects: The pick_objects package was used to command the robot to drive to the pickup and drop off zones specified for the project.
+
+add_markers: An add_markers package was used to create rviz markers at the pickup and dropoff locations. These markers were configured to appear or disappear based on when the robot reached those locations.
